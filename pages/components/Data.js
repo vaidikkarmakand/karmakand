@@ -22,7 +22,7 @@ const PoojanData = [
     id: "upanayan"
   },
   {
-    name: "षोडश संस्कार के मुख्य",
+    name: "षोडश संस्कार के मुख्य संस्कार",
     id: "shodash-sanskar"
   },
   {
@@ -30,7 +30,7 @@ const PoojanData = [
     id: "griharambh"
   },
   {
-    name: "बंगला मुखी (जप)",
+    name: "बगला मुखी (जप)",
     id: "bangla-pooja"
   },
   {
@@ -56,7 +56,7 @@ const PoojanData = [
 ]
 const AdhyayanData = [
   {
-    name: "अष्टाध्यायी",
+    name: "रुद्राष्टाध्यायी",
     id: "ashtadhyayi"
   },
   {

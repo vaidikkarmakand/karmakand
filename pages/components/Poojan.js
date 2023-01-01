@@ -33,7 +33,7 @@ export const Adhyayan = () => {
     return (<>Error</>)
   }
   else {
-    return (<div className='container'><h1 style={{ textAlign: "center", marginBottom: "20px", marginTop: "20px" }}>अध्ययन कार्यक्रम</h1>
+    return (<div><h1 style={{ textAlign: "center", marginBottom: "20px", marginTop: "20px" }}>अध्ययन कार्यक्रम</h1>
       <Script>{`
       document.getElementById('bt-ad').onclick = (e) =>  openCity(e,'ad')
       document.getElementById('bt-sh').onclick = (e) => openCity(e,'sh')
@@ -51,9 +51,9 @@ export const Adhyayan = () => {
       document.getElementById(cityName).style.display = "block";
       evt.currentTarget.className = "tablink shadow-bye";
     }`}</Script>
-      <div className="flex flex-wrap mb-2 tab justify-center">
-        <button style={{ width: '50%' }} className="tablink shadow-bye" id="bt-ad">आध्यात्मिक पाठ्यक्रम</button>
-        <button style={{ width: '50%' }} className="tablink" id="bt-sh">शैक्षणिक एवं प्रातिस्पार्धिक पाठ्यक्रम</button>
+      <div className="flex flex-wrap mb-2 tab justify-center" style={{ padding: "0 1.5rem" }}>
+        <button style={{ width: '50%', fontSize: "15px" }} className="tablink shadow-bye" id="bt-ad">आध्यात्मिक पाठ्यक्रम</button>
+        <button style={{ width: '50%', fontSize: "15px" }} className="tablink" id="bt-sh">शैक्षणिक एवं प्रातिस्पार्धिक पाठ्यक्रम</button>
       </div>
       <div className='tab-tab' id="ad">
         <div className={styles.grid}>
@@ -70,14 +70,14 @@ export const Adhyayan = () => {
       <div className='tab-tab' id="sh">
         <div className={styles.grid}>
           {/* {data.map((val) => { */}
-            {/* return  */}
-            <a href={`https://vidyavantam.com`} target="_blank" className={styles.card}>
-              <div style={{ margin: "10px 0" }}>
-                <img src={`/${url}/book.svg`} style={{ width: "80%", height: "80%" }} />
-              </div>
-              <h3>Academic and Competitive Courses</h3>
-              <h4>- By Vidyavantam</h4>
-            </a>
+          {/* return  */}
+          <a href={`https://vidyavantam.com`} target="_blank" className={styles.card}>
+            <div style={{ margin: "10px 0" }}>
+              <img src={`/${url}/book.svg`} style={{ width: "80%", height: "80%" }} />
+            </div>
+            <h3>Academic and Competitive Courses</h3>
+            <h4>- By Vidyavantam</h4>
+          </a>
           {/* })} */}
         </div>
       </div>
