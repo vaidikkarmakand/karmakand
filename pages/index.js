@@ -22,8 +22,8 @@ export default function Home() {
             कर्मकाण्ड va अध्ययन kare saralta se
           </p> */}
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
-            <a style={{ margin: "10px" }} href={`/${url}/poojan`}><button type="submit" className="button-cool sm-w-full">कर्मकाण्ड</button></a>
-            <a style={{ margin: "10px" }} href={`/${url}/adhyayan`}><button type="submit" className="button-cool sm-w-full">अध्ययन</button></a>
+            <a style={{ margin: "10px" }} href={`${url}/poojan`}><button type="submit" className="button-cool sm-w-full">कर्मकाण्ड</button></a>
+            <a style={{ margin: "10px" }} href={`${url}/adhyayan`}><button type="submit" className="button-cool sm-w-full">अध्ययन</button></a>
           </div>
         </main>
         <div className="bg-white" style={{ padding: "50px 0" }}>

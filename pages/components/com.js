@@ -51,7 +51,7 @@ export function AdhyayanID() {
           <div className="lg:col-30" style={{ margin: '20px 0 20px 0' }}>
             <div className={styles.card} style={{ maxWidth: "100%", height: "max-content" }}>
               <div style={{ margin: "10px 0" }}>
-                <img src={da[0].image ? `/${url}/${da[0].image}` : `/${url}/book.svg`} style={{ width: "95%", height: "95%" }} />
+                <img src={da[0].image ? `${url}/${da[0].image}` : `${url}/book.svg`} style={{ width: "95%", height: "95%" }} />
               </div>
               <h2>{da[0].name}</h2>
             </div>
@@ -110,7 +110,7 @@ export function PoojanID() {
           <div className="lg:col-30" style={{ margin: '20px 0 20px 0' }}>
             <div className={styles.card} style={{ maxWidth: "100%", height: "max-content" }}>
               <div style={{ margin: "10px 0" }}>
-                <img src={da[0].image ? `/${url}/${da[0].image}` : `/${url}/yajna.png`} style={{ width: "95%", height: "95%" }} />
+                <img src={da[0].image ? `${url}/${da[0].image}` : `${url}/yajna.png`} style={{ width: "95%", height: "95%" }} />
               </div>
               <h2>{da[0].name}</h2>
             </div>

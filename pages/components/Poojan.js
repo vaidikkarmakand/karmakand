@@ -16,9 +16,9 @@ export const Pooja = () => {
     return (<><h1 style={{ textAlign: "center", marginTop: "20px" }}>कर्मकाण्ड</h1>
       <div className={styles.grid}>
         {data.map((val) => {
-          return <a href={`/${url}/poojan/${val.id}`} className={styles.card}>
+          return <a href={`${url}/poojan/${val.id}`} className={styles.card}>
             <div style={{ margin: "10px 0" }}>
-              <img src={val.image ? `/${url}/${val.image}` : `/${url}/yajna.png`} style={{ width: "80%", height: "80%" }} />
+              <img src={val.image ? `${url}/${val.image}` : `${url}/yajna.png`} style={{ width: "80%", height: "80%" }} />
             </div>
             <h2>{val.name}</h2>
           </a>
@@ -58,9 +58,9 @@ export const Adhyayan = () => {
       <div className='tab-tab' id="ad">
         <div className={styles.grid}>
           {data.map((val) => {
-            return <a href={`/${url}/adhyayan/${val.id}`} className={styles.card}>
+            return <a href={`${url}/adhyayan/${val.id}`} className={styles.card}>
               <div style={{ margin: "10px 0" }}>
-                <img src={val.image ? `/${url}/${val.image}` : `/${url}/book.svg`} style={{ width: "80%", height: "80%" }} />
+                <img src={val.image ? `${url}/${val.image}` : `${url}/book.svg`} style={{ width: "80%", height: "80%" }} />
               </div>
               <h2>{val.name}</h2>
             </a>
@@ -73,7 +73,7 @@ export const Adhyayan = () => {
           {/* return  */}
           <a href={`https://vidyavantam.com`} target="_blank" className={styles.card}>
             <div style={{ margin: "10px 0" }}>
-              <img src={`/${url}/book.svg`} style={{ width: "80%", height: "80%" }} />
+              <img src={`${url}/book.svg`} style={{ width: "80%", height: "80%" }} />
             </div>
             <h3>Academic and Competitive Courses</h3>
             <h4>- By Vidyavantam</h4>
