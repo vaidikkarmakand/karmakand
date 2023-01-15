@@ -15,7 +15,7 @@ export const Navbar = () => {
     <Script src={`${url}/script.js`}></Script>
     <nav>
       <div className="navbar">
-        <a style={{ textAlign: 'center' }} className="logo" href={`${url}/`}><p style={{ fontSize: 30 }}>वैदिक कर्मकाण्ड</p>
+        <a style={{ textAlign: 'center' }} className="logo" href={`${url}/`}><p style={{ fontSize: 30 }}>वैदिक कर्मकाण्ड संस्कृति</p>
           {/* <p style={{ fontSize: 17 }}>विद्याधनं सर्वधनेषु प्रधानम्</p> */}
         </a>
         <div className="nav_links">

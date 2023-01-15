@@ -10,19 +10,19 @@ export default function Home() {
     <div className={`bg-gray`}>
       <div>
         <Head>
-          <title>वैदिक कर्मकाण्ड</title>
+          <title>वैदिक कर्मकाण्ड संस्कृति</title>
         </Head>
 
         <main className='container-fluid' style={{ padding: "90px" }}>
           <h1 className={styles.title}>
-            वैदिक कर्मकाण्ड
+            वैदिक कर्मकाण्ड संस्कृति
           </h1>
 
           {/* <p className={styles.description}>
             कर्मकाण्ड va अध्ययन kare saralta se
           </p> */}
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
-            <a style={{ margin: "10px" }} href={`${url}/poojan`}><button type="submit" className="button-cool sm-w-full">कर्मकाण्ड</button></a>
+            <a style={{ margin: "10px" }} href={`${url}/vaidik-karmakand-paddhati`}><button type="submit" className="button-cool sm-w-full">वैदिक कर्मकाण्ड पद्धति</button></a>
             <a style={{ margin: "10px" }} href={`${url}/adhyayan`}><button type="submit" className="button-cool sm-w-full">अध्ययन</button></a>
           </div>
         </main>

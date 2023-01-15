@@ -35,7 +35,7 @@ export default function Contact() {
             {detail.address}
           </div>
         </div>
-        <form action="https://formsubmit.co/b9b5a0f54cde64d5b6a92e469506b936" method="POST" className="tat lg-p-15">
+        <form action="https://formsubmit.co/e9e3f6627b123307b99f56717ff336bf " method="POST" className="tat lg-p-15">
           <input type="hidden" name="_next" value={URL} />
           <div className="md-flex gap-10">
             <div className="mb-1 w-full">

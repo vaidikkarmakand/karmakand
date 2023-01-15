@@ -13,10 +13,10 @@ export const Pooja = () => {
     return (<>Error</>)
   }
   else {
-    return (<><h1 style={{ textAlign: "center", marginTop: "20px" }}>कर्मकाण्ड</h1>
+    return (<><h1 style={{ textAlign: "center", marginTop: "20px" }}>वैदिक कर्मकाण्ड पद्धति</h1>
       <div className={styles.grid}>
         {data.map((val) => {
-          return <a href={`${url}/poojan/${val.id}`} className={styles.card}>
+          return <a href={`${url}/vaidik-karmakand-paddhati/${val.id}`} className={styles.card}>
             <div style={{ margin: "10px 0" }}>
               <img src={val.image ? `${url}/${val.image}` : `${url}/yajna.png`} style={{ width: "80%", height: "80%" }} />
             </div>
