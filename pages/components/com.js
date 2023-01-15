@@ -80,7 +80,7 @@ export function PoojanID() {
       <div className="container">
         <div className="flex md:reverse">
           <div className="lg:col-70" style={{ margin: '20px 0 20px 0', padding: '0 5px 0 5px' }}>
-            <h1>{da[0].name} - कर्मकाण्ड</h1>
+            <h1>{da[0].name} - वैदिक कर्मकाण्ड पद्धति</h1>
             <div style={{ whiteSpace: 'pre-wrap', color: '#111', marginTop: "10px" }}>
               {da[0].detail ? <div style={{ marginBottom: "10px", color: "#4c4c4c" }}>{da[0].detail}</div> : ""}
               <h3>पूजा के लिए संपर्क करें:</h3>
