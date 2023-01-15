@@ -23,7 +23,7 @@ export const Navbar = () => {
             <a className="navbar-link" href={`${url}/`}>गृह</a>
             <a className="navbar-link" href={`${url}/about`}>विषय में</a>
             <div className="dropdown dropdown-hide">
-              <a href={`${url}/poojan`} style={{ fontSize: '1rem', display: 'flex', borderBottom: '2px solid rgba(0, 0, 0, 0)' }} className="more navbar-link dropbtn-hide">कर्मकाण्ड
+              <a href={`${url}/vaidik-karmakand-paddhati`} style={{ fontSize: '1rem', display: 'flex', borderBottom: '2px solid rgba(0, 0, 0, 0)' }} className="more navbar-link dropbtn-hide">कर्मकाण्ड
                 <svg fill="none" style={{ width: 15, marginLeft: 5 }} viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="ml-2 h-5 w-5">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7">
                   </path>
