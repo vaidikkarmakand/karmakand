@@ -30,9 +30,9 @@ export const Navbar = () => {
                 </svg></a>
               <div className="dropdown-content dropdown-content-hide">
                 {tatt.map((val) => {
-                  return <a className="normal" href={`${url}/poojan/${val.id}`} style={{ display: 'flex', alignItems: 'center' }}>{val.name}</a>
+                  return <a className="normal" href={`${url}/vaidik-karmakand-paddhati/${val.id}`} style={{ display: 'flex', alignItems: 'center' }}>{val.name}</a>
                 })}
-                {PoojanData.length > 10 ? <a href={`${url}/poojan`} style={{ display: 'flex', color: "inherit", alignItems: 'center', textAlign: "end" }}>अधिक...</a> : ""}
+                {PoojanData.length > 10 ? <a href={`${url}/vaidik-karmakand-paddhati`} style={{ display: 'flex', color: "inherit", alignItems: 'center', textAlign: "end" }}>अधिक...</a> : ""}
               </div>
             </div>
             <div className="dropdown dropdown-hide">
