@@ -13,7 +13,7 @@ const About = () => {
         <div style={{ display: "flex", justifyContent: "center" }}>
           <div style={{ width: "fit-content" }}>
             <h2 style={{ textAlign: "center" }}>पं. डॉ. अनिल कुमार झा</h2>
-            <h4 style={{ textAlign: "end" }}>पी.एच. डी. वेद, ज्योतिषाचार्य</h4>
+            <h4 style={{ textAlign: "end" }}>ज्योतिषाचार्य, पी.एच. डी. वेद</h4>
             <h4 style={{ textAlign: "end" }}>- वाराणसी</h4>
           </div>
         </div>
