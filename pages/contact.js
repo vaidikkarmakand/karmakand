@@ -1,6 +1,13 @@
 import { detail } from './components/Data'
+import { url } from "./components/Data"
 
 export default function Contact() {
+  const origin =
+    typeof window !== 'undefined' && window.location.origin
+      ? window.location.origin
+      : '';
+
+  const URL = `${origin}/${url == "karmakand" ? `${url}/thankyou` : "thankyou"}`;
   return (<div className='bg-white'>
     <div className="section">
       <h1 style={{ textAlign: "center", marginTop: "20px" }}>सम्पर्क करेंं</h1>
@@ -28,7 +35,8 @@ export default function Contact() {
             {detail.address}
           </div>
         </div>
-        <form action="/send-message" method="post" className="tat lg-p-15">
+        <form action="https://formsubmit.co/b9b5a0f54cde64d5b6a92e469506b936" method="POST" className="tat lg-p-15">
+          <input type="hidden" name="_next" value={URL} />
           <div className="md-flex gap-10">
             <div className="mb-1 w-full">
               <label htmlFor="name" className="form-label">Name</label>

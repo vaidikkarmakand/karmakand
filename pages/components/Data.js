@@ -75,7 +75,7 @@ const detail = {
   address: "अनिल कुमार झा, D-12/44, नीची ब्रह्मपुरी, विश्वनाथ गली, बांसफाटक, वाराणसी - 221001"
 }
 
-const url = "karmakand"
+const url = ""
 
 export { PoojanData, AdhyayanData, url, detail }
 
