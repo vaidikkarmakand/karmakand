@@ -25,9 +25,9 @@ export const Footer = () => {
           <h4>कर्मकाण्ड</h4>
           <ul>
             {tatt.map((val) => {
-              return <li><a href={`${url}/poojan/${val.id}`}>{val.name}</a></li>
+              return <li><a href={`${url}/vaidik-karmakand-paddhati/${val.id}`}>{val.name}</a></li>
             })}
-            {PoojanData.length > 4 ? <li><a href={`${url}/poojan`}>अधिक...</a></li> : ""}
+            {PoojanData.length > 4 ? <li><a href={`${url}/vaidik-karmakand-paddhati`}>अधिक...</a></li> : ""}
           </ul>
         </div>
         <div className="footer-col">

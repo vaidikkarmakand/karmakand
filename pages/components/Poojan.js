@@ -76,7 +76,7 @@ export const Adhyayan = () => {
               <img src={`${url}/book.svg`} style={{ width: "80%", height: "80%" }} />
             </div>
             <h3>Academic and Competitive Courses</h3>
-            <h4>- Vidyavantam</h4>
+            {/* <h4>- Vidyavantam</h4> */}
           </a>
           {/* })} */}
         </div>

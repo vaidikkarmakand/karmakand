@@ -61,7 +61,7 @@ export const Navbar = () => {
       <div className="links">
         <a className="navbar-link" href={`${url}/`}>गृह</a>
         <a className="navbar-link" href={`${url}/about`}>विषय में</a>
-        <a className="navbar-link" href={`${url}/poojan`}>कर्मकाण्ड</a>
+        <a className="navbar-link" href={`${url}/vaidik-karmakand-paddhati`}>कर्मकाण्ड</a>
         <a className="navbar-link" href={`${url}/adhyayan`}>अध्ययन</a>
         <a className="navbar-link" href={`${url}/contact`}>सम्पर्क करें</a>
       </div>
